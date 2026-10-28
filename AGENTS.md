@@ -40,6 +40,7 @@ This supersedes historical ten-minute instructions. Do not invent usage readings
 
 ## Offline tools and checks
 
+- The reusable Python mosaic workflow is in `tools/photo-mosaic/`. Follow its guide for dependencies, archive intake, registration, optional inspected green-PCB masks, projective refinement, focus rendering and reviewed regional composition. Raised components may require a coherent single-source view instead of a fragmented stack. Preserve source white balance; do not apply unverified per-channel colour normalization. Synthetic tests belong in source control; inputs, images, generated reports, feature/render caches and dependency payloads do not. A small residual or a passing synthetic test does not guarantee a fully sharp real PCB image.
 - Start with [offline tools](tools/README.md), then follow the relevant tool's own guide. Do not assume the private workspace's photo applications or model server are bundled here.
 - Use suitable local Qwen3 32B review for focused, authorized analysis where available; prefer deterministic scripts when a model adds no value. Keep input packets small and reviewed. Model outputs are untrusted text, never automatically executed code or commands.
 - Keep generated files and caches inside project-local ignored paths where practical. Use pinned dependencies and trusted upstream releases. Do not modify system packages or host settings. If sudo is required, stop and provide the exact command for the user to run; never run sudo.

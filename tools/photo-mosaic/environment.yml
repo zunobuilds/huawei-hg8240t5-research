@@ -1,0 +1,12 @@
+name: photo-mosaic
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.16
+  - numpy=2.5.4
+  - opencv=5.0.0
+  - scipy=1.18.1
+  - pillow=13.0.0
+  - tifffile=2026.10.15
+  - imagecodecs=2026.8.16
+  - threadpoolctl=3.6.0

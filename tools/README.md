@@ -1,11 +1,12 @@
 # Offline tools
 
-Run commands from the repository root. Tools read saved files; neither sends device requests nor executes supplied JavaScript or model output. Reading the research requires neither tool.
+Run commands from the repository root. Tools process saved files without device requests or execution of supplied JavaScript or model output. Reading the research requires no tool installation.
 
 | Tool | Requirements | First useful result |
 | --- | --- | --- |
 | [JavaScript inventory](js-inventory/README.md) | Node.js 22.x (22.18+) or 24.11+, npm | JSON shapes from a synthetic script |
 | [Local file review](local-review/README.md) | Linux, Rust/Cargo 1.99+ | Saved task identity without inference |
+| [Photo mosaic](photo-mosaic/README.md) | Linux, Python 3.12 and pinned numerical/image libraries | Synthetic registration and focus-selection tests |
 
 ## First offline example
 

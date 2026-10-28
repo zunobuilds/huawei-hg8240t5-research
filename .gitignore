@@ -19,3 +19,9 @@ tools/local-review/state/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Photo mosaic inputs, environments and generated work
+.venv/
+tools/photo-mosaic/inbox/
+tools/photo-mosaic/runs/
+tools/photo-mosaic/tests/tmp*/
