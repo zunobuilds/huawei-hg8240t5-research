@@ -13,3 +13,5 @@ The exterior image was selected from the owner-provided enclosure photographs, c
 The PCB frames were visually selected to exclude the board's identifying serial/QR sticker. These two copies retain their original JPEG encoded image data and capture orientation. No sharpening, component reconstruction or signal annotation was applied.
 
 Public file hashes are in [SHA256SUMS](SHA256SUMS). The full mosaic, raw frame collection and identifying overview are excluded. Component identifications rely on the broader private research, not these photographs alone.
+
+The small [AI-assisted label](ai-assisted.svg) beneath the README title is project-created SVG text artwork. It discloses AI assistance; it is not a device photograph, certification or external service badge.

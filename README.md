@@ -1,4 +1,8 @@
-# Huawei HG8240T5 research
+<h1 align="center">Huawei HG8240T5</h1>
+
+<p align="center">
+  <img src="images/ai-assisted.svg" alt="AI-assisted" width="100" height="22" />
+</p>
 
 Independent research into a retired optical network router (ONR), for readers interested in embedded hardware, security analysis and offline research tools.
 
