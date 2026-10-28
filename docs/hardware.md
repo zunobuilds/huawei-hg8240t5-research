@@ -1,6 +1,6 @@
 # Hardware and photographs
 
-Hardware identification combines earlier private photograph review with manufacturer documentation. The public images below show the newly photographed PCB backside, not the full evidence set for every component identification.
+Hardware identification combines earlier private photograph review with manufacturer documentation. The images below show PCB backside details and a component-side composite; the complete identification evidence remains private.
 
 | Component | Identification from research | Limit |
 | --- | --- | --- |
@@ -25,11 +25,19 @@ A second single-frame view of backside traces and footprints. Focus and glare li
 
 Both images retain original encoded pixel data, without AI-generated reconstruction. Originals remain private and unchanged. See [image provenance](../images/README.md).
 
+## Component side — bottom-facing inside the device
+
+![PCB component side with connectors along the bottom edge](../images/pcb/pcb-component-side.jpg)
+
+Composite prepared from a 1,297-photo dataset. The local lossless master is 13,311 × 8,407 pixels; this documentation image is a reduced JPEG. Processing used PCB-surface registration, native focus selection, a reviewed capacitor-region focus stack and coherent source views for raised components. Outside-scene background was removed without inpainting or generated detail.
+
+Originals remain unchanged. Source softness, lighting differences and small local seam or perspective errors can remain. The composite is not a calibrated measurement. See [image provenance](../images/README.md).
+
 ## Unresolved hardware questions
 
 The previously observed five-pad footprint is only a debug-interface candidate: function, pinout and voltage remain unverified. Unpopulated footprints and USB/WLAN silkscreen are not proof of functioning interfaces. No wiring instructions are provided.
 
-The existing full-board mosaic contains an identifying sticker and is omitted from this copy. Exterior photos and earlier deleted loose photos were not restored from backups. No complete two-sided public gallery is claimed.
+The original full-board backside mosaic contains an identifying sticker and remains private. The component-side composite above is included separately. Earlier deleted loose photographs were not restored from backups; no complete two-sided public gallery is claimed.
 
 ---
 

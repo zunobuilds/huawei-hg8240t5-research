@@ -36,6 +36,7 @@ This supersedes historical ten-minute instructions. Do not invent usage readings
 - Exclude serial numbers, MAC addresses, QR codes, credentials and identifying metadata from shared derivatives. Use opaque flattened redaction rather than a reversible overlay.
 - Use deterministic processing for evidence images. Do not invent or reconstruct detail with generative editing. State blur, glare, alignment and measurement limitations honestly.
 - Treat OCR, text extraction and component interpretation as separate tasks; combining or editing photos does not authorize them. Save requested extracted text in a separate local text file and review before sharing.
+- The component-side composite is included on the hardware page as `images/pcb/pcb-component-side.jpg`; lossless masters and original photographs remain local.
 - The main README uses the edited exterior image at `images/device/hg8240t5-exterior.jpg`. Keep the existing PCB detail images available on the hardware page.
 
 ## Offline tools and checks
