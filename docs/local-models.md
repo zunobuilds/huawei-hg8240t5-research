@@ -21,7 +21,7 @@ Settings are bound into saved task identities where implemented. This lock does 
 
 ## Optional inference setup
 
-Inference requires Ollama installed separately and substantial memory and disk capacity; model download uses network bandwidth and many gigabytes of storage. Do not send confidential input to a service you do not control. The offline submit and test examples do not require a server or weights.
+Inference requires Ollama installed separately and substantial memory and disk capacity; model download uses network bandwidth and many gigabytes of storage. Confidential input requires a locally controlled service. The offline submit and test examples do not require a server or weights.
 
 For an isolated local server, use a separate terminal:
 

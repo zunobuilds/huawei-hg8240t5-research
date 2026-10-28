@@ -28,6 +28,6 @@ This project studies a Huawei HG8240T5 running firmware customized for [Singtel]
 
 ## Safety and ownership
 
-This independent, **AI-assisted** research may contain errors. **Do not try this at home:** experimental hardware work can cause injury, damage, data loss or service disruption. Obtain authorization before testing equipment; read the [full disclaimer](DISCLAIMER.md).
+This independent, **AI-assisted** research may contain errors. Experimental hardware work can cause injury, damage, data loss or service disruption. Equipment testing requires authorization; the [full disclaimer](DISCLAIMER.md) describes the limitations.
 
-Original contributions use the [MIT License](LICENSE), with **ABSOLUTELY NO WARRANTY**, to the extent permitted by applicable law. The author did not design the device hardware or firmware; the license does not cover them. See [ownership and license scope](NOTICE.md).
+Original contributions use the [MIT License](LICENSE), with **ABSOLUTELY NO WARRANTY**, to the extent permitted by applicable law. Device hardware and original firmware are third-party works outside the repository license. See [ownership and license scope](NOTICE.md).

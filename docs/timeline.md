@@ -1,6 +1,6 @@
 # Research timeline
 
-Dates below summarize saved work; they are not release dates.
+Dates below record research activity rather than software releases.
 
 | Date | Work and outcome |
 | --- | --- |

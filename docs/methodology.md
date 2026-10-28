@@ -1,6 +1,6 @@
 # Methodology and evidence limits
 
-Research used an owner-authorized retired device on a bounded management LAN. Device actions were supervised, sequential and logged. WebUI interactions used Playwright. This repository contains offline tools only; preparing these documents did not resume diagnostics.
+Authorized research used a retired device on a bounded management LAN. Device actions were supervised, sequential and logged. WebUI interactions used Playwright. This repository contains offline tools only; preparing these documents did not resume diagnostics.
 
 ## Evidence workflow
 
@@ -23,4 +23,4 @@ Models made unsupported inferences that were rejected or corrected through sourc
 
 No resets, reboots, flashing, persistent service changes or backdoor installation were authorized in the current workflow. No Linux shell or arbitrary execution was confirmed. An earlier benign ping diagnostic left normal test values in the interface; the original blank/default fields were not restored. A blanket claim that the project never submitted any diagnostic input would therefore be inaccurate.
 
-Raw captures and identifying values remain owner-only. Photographic mosaics are resampled combinations with alignment limits, not calibrated measurements or recovered hidden detail. Public single-frame photo copies are described separately in [hardware](hardware.md).
+Raw captures and identifying values remain private. Photographic mosaics are resampled combinations with alignment limits, not calibrated measurements or recovered hidden detail. Public single-frame photo copies are described separately in [hardware](hardware.md).

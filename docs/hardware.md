@@ -17,13 +17,13 @@ Manufacturer and related-device sources are listed in [references](references.md
 
 ![PCB backside connector region with solder joints and connector housings](../images/pcb/pcb-connector-side.jpg)
 
-Connector-side detail from one owner-provided frame. Original framing is retained; identifying metadata was removed from the public copy. This frame was selected because it excludes the identifying sticker.
+Single-frame detail of the connector region. Original framing is retained; identifying metadata was removed from the public copy. This frame was selected because it excludes the identifying sticker.
 
 ![PCB backside traces, component footprints and connector solder joints; fine lettering is soft](../images/pcb/pcb-trace-detail.jpg)
 
 A second single-frame view of backside traces and footprints. Focus and glare limit fine-lettering interpretation. No component function or signal assignment is inferred from appearance alone.
 
-These two images retain original encoded pixel data. They are not AI-generated reconstructions. Originals remain private and unchanged. See [image provenance](../images/README.md).
+Both images retain original encoded pixel data, without AI-generated reconstruction. Originals remain private and unchanged. See [image provenance](../images/README.md).
 
 ## Unresolved hardware questions
 
