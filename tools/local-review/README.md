@@ -28,3 +28,14 @@ cargo test --locked --manifest-path tools/local-review/Cargo.toml
 ```
 
 Tests exercise input-path restrictions, job IDs, model restrictions and incomplete/truncated/successful streams, without a server. Test artifacts are written beneath the ignored state directory. Stop a separately launched foreground Ollama server with Ctrl+C; this client does not manage that service.
+
+## Troubleshooting
+
+- **Input too large:** the prompt and all evidence together must fit within 2,048 UTF-8 bytes. Split the task into focused reviewed packets; this is a byte limit, not a token limit.
+- **Private/cache/state inputs excluded:** prepare a separate reviewed input in an allowed repository path. Do not rename a credential file merely to bypass the filter.
+- **Connection failure or missing model:** `submit`, `status` and tests work without inference. For `ask` or `run`, check the separate [model setup](../../docs/local-models.md) and fixed loopback port.
+- **Worker holds the lock:** let that task finish or inspect it before intervening. `recover ID` obtains the lock and only changes a saved `running` record to `interrupted`; it does not stop a process or retry inference.
+- **Failed or interrupted task:** inspect its saved input, state and partial output. Submit a deliberately revised prompt to create a new task; do not expect `ask` to replay an unchanged failed task.
+- **Checkout moved:** rebuild the client; its repository root is embedded at compilation.
+
+For the only supported model override and inference defaults, see [local-model configuration](../../docs/local-models.md). The path guard does not replace review of input contents.

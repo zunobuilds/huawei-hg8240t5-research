@@ -2,7 +2,22 @@
 
 The documented local model is **Qwen3 32B**, `qwen3:32b`, Q4_K_M, served through Ollama. Weights and runtime are not included. See the [official model entry](https://ollama.com/library/qwen3:32b).
 
-The Rust client uses fixed loopback HTTP at `127.0.0.1:11435`, disables proxies and redirects, and accepts only this model name. Defaults are 4,096 context tokens, 2,048 bytes of combined input, 1,024 output tokens, batch size 64, thinking disabled and a 540-second request deadline. One client inference task holds a local lock at a time.
+## Client configuration
+
+The Rust client uses fixed loopback HTTP and disables proxies and redirects. These settings describe the included client, not general Ollama defaults.
+
+| Setting | Included client behavior |
+| --- | --- |
+| Endpoint | Fixed `http://127.0.0.1:11435` |
+| Model | `qwen3:32b`; optional `ONR_LOCAL_MODEL` must have this exact value |
+| Context and output | 4,096 context tokens; at most 1,024 output tokens |
+| Input | At most 2,048 combined UTF-8 bytes of prompt and evidence |
+| Inference | Batch size 64; thinking disabled |
+| Deadlines | 3-second connection timeout; 540-second request timeout |
+| Residency | Request specifies `keep_alive: "10m"` |
+| Concurrency | One inference task per client state-directory lock |
+
+Settings are bound into saved task identities where implemented. This lock does not coordinate unrelated Ollama clients. The client does not start or stop the server.
 
 ## Optional inference setup
 

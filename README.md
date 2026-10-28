@@ -1,27 +1,25 @@
 # Huawei HG8240T5 research
 
-Independent research into a retired optical network router (ONR), for readers interested in embedded hardware, evidence-based security analysis and offline research tools.
+Independent research into a retired optical network router (ONR), for readers interested in embedded hardware, security analysis and offline research tools.
 
-This project studies a Huawei HG8240T5 running firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Results describe the tested SINGTEL2 build; they do not establish behavior on other units or firmware.
+This project studies a Huawei HG8240T5 running firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the tested SINGTEL2 build; other units and firmware may differ.
 
-![PCB backside near connector solder joints, with part of the connector housings visible](images/pcb/pcb-connector-side.jpg)
+![PCB backside connector region, showing solder joints and connector housings](images/pcb/pcb-connector-side.jpg)
 
-**Status:** experimental research; device diagnostics are paused. A LAN information disclosure was independently reproduced. Shell access, firmware extraction and a UART pinout have not been established. Exact reproduction details and raw evidence remain private.
+## Research status
 
-## Safety and AI assistance
+Device diagnostics are paused. A LAN information disclosure was independently reproduced. Shell access, firmware extraction and a UART pinout have not been established. Exact reproduction details and raw evidence remain private.
 
-This is an independent, **AI-assisted research project**. AI-assisted code, analysis and documentation may contain errors.
+## Start here
 
-Original project contributions are provided under the MIT License. Third-party materials remain subject to their respective licenses.
-
-This project comes with **ABSOLUTELY NO WARRANTY**, to the extent permitted by applicable law. See [LICENSE](LICENSE) for the warranty disclaimer and limitation of liability.
-
-**Do not try this at home.** This repository documents experimental research. Attempting similar work can cause injury, device damage, data loss or service disruption. You are responsible for your actions and for obtaining authorization before testing equipment. Read the [full disclaimer](DISCLAIMER.md).
-
-## Explore
-
+- [Device and firmware](docs/device.md)
 - [Hardware and photographs](docs/hardware.md)
-- [Finding summary](docs/findings/ONR-WEB-001.md)
-- [Documentation index](docs/README.md)
-- [Offline tools and examples](tools/README.md)
-- [Ownership, attribution and license scope](NOTICE.md)
+- [Finding summary and limits](docs/findings/ONR-WEB-001.md)
+- [Offline tools: first example](tools/README.md#first-offline-example)
+- [All documentation](docs/README.md)
+
+## Safety and ownership
+
+This independent, **AI-assisted** research may contain errors. **Do not try this at home:** experimental hardware work can cause injury, damage, data loss or service disruption. Obtain authorization before testing equipment; read the [full disclaimer](DISCLAIMER.md).
+
+Original contributions use the [MIT License](LICENSE), with **ABSOLUTELY NO WARRANTY**, to the extent permitted by applicable law. The author did not design the device hardware or firmware; the license does not cover them. See [ownership and license scope](NOTICE.md).
