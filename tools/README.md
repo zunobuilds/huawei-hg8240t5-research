@@ -25,3 +25,7 @@ For limits and tests, see the [inventory guide](js-inventory/README.md). For sav
 The offline examples and tests were checked on Linux with Node.js 22.23.1 and Rust/Cargo 1.99.0. Other supported Node.js versions were not exercised here. Rust versions below 1.99 are not claimed as supported.
 
 Use reviewed inputs: outputs can disclose names, prompts or evidence. Generated files, caches and results are excluded from Git. Review outputs before sharing them. To remove installed JavaScript dependencies, delete only `tools/js-inventory/node_modules`. Rust task records live under `tools/local-review/state`; review any partial answers before removing records you no longer need.
+
+---
+
+[Go to all documentation →](../docs/README.md)

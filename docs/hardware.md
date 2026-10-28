@@ -30,3 +30,7 @@ These two images retain original encoded pixel data. They are not AI-generated r
 The previously observed five-pad footprint is only a debug-interface candidate: function, pinout and voltage remain unverified. Unpopulated footprints and USB/WLAN silkscreen are not proof of functioning interfaces. No wiring instructions are provided.
 
 The existing full-board mosaic contains an identifying sticker and is omitted from this copy. Exterior photos and earlier deleted loose photos were not restored from backups. No complete two-sided public gallery is claimed.
+
+---
+
+[Next page: Finding summary and limits →](findings/ONR-WEB-001.md)

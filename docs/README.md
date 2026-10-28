@@ -12,3 +12,7 @@ Start with [device and firmware](device.md), then [hardware and photos](hardware
 | Follow the work and its sources | [Research timeline](timeline.md), [references](references.md) |
 
 The offline tools use synthetic examples. Live-device collectors, exact vulnerable endpoints and private evidence are excluded. See [safety](../DISCLAIMER.md) and [ownership](../NOTICE.md). Reading the research requires no installation.
+
+---
+
+[Back to the main README](../README.md)

@@ -19,3 +19,7 @@ Requests were tested in a particular same-origin context on an isolated LAN. Beh
 An added generic query parameter initially caused misleading 403 responses. Exact observed URLs and request context mattered. HTTP success alone was insufficient: populated data, authentication state and protected controls were checked separately.
 
 Exact endpoints, request sequences, raw responses and opaque values remain private. This public summary is not a runnable reproduction or an independently auditable raw evidence bundle. No vendor contact, external disclosure or matching patched build is claimed.
+
+---
+
+[Next page: Offline tools — first example →](../../tools/README.md#first-offline-example)
