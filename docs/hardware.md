@@ -1,6 +1,6 @@
 # Hardware and photographs
 
-Hardware identification combines earlier private photograph review with manufacturer documentation. The images below show PCB backside details and a component-side composite; the complete identification evidence remains private.
+I compared photographs with manufacturer documentation to identify the hardware. The images below show PCB backside details and a component-side composite; the complete identification evidence remains private.
 
 | Component | Identification from research | Limit |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ Manufacturer and related-device sources are listed in [references](references.md
 
 ![PCB backside connector region with solder joints and connector housings](../images/pcb/pcb-connector-side.jpg)
 
-Single-frame detail of the connector region. Original framing is retained; identifying metadata was removed from the public copy. This frame was selected because it excludes the identifying sticker.
+Single-frame detail of the connector region. I kept the original framing, removed identifying metadata and selected this frame because it excludes the identifying sticker.
 
 ![PCB backside traces, component footprints and connector solder joints; fine lettering is soft](../images/pcb/pcb-trace-detail.jpg)
 
@@ -29,7 +29,7 @@ Both images retain original encoded pixel data, without AI-generated reconstruct
 
 ![PCB component side with connectors along the bottom edge](../images/pcb/pcb-component-side.jpg)
 
-Composite prepared from a 1,297-photo dataset. The local lossless master is 13,311 × 8,407 pixels; this documentation image is a reduced JPEG. Processing used PCB-surface registration, native focus selection, a reviewed capacitor-region focus stack and coherent source views for raised components. Outside-scene background was removed without inpainting or generated detail.
+I used a 1,297-photo dataset to prepare this composite. The local lossless master is 13,311 × 8,407 pixels; this documentation image is a reduced JPEG. I used PCB-surface registration, native focus selection, a reviewed capacitor-region focus stack and coherent source views for raised components. Outside-scene background was removed without inpainting or generated detail.
 
 Originals remain unchanged. Source softness, lighting differences and small local seam or perspective errors can remain. The composite is not a calibrated measurement. See [image provenance](../images/README.md).
 
@@ -37,7 +37,7 @@ Originals remain unchanged. Source softness, lighting differences and small loca
 
 The previously observed five-pad footprint is only a debug-interface candidate: function, pinout and voltage remain unverified. Unpopulated footprints and USB/WLAN silkscreen are not proof of functioning interfaces. No wiring instructions are provided.
 
-The original full-board backside mosaic contains an identifying sticker and remains private. The component-side composite above is included separately. Earlier deleted loose photographs were not restored from backups; no complete two-sided public gallery is claimed.
+I kept the original full-board backside mosaic private because it contains an identifying sticker. The component-side composite above is included separately. Earlier deleted loose photographs were not restored from backups; no complete two-sided public gallery is claimed.
 
 ---
 

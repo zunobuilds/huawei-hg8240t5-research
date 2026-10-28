@@ -1,10 +1,10 @@
 # Local model
 
-The documented local model is **Qwen3 32B**, `qwen3:32b`, Q4_K_M, served through Ollama. Weights and runtime are not included. See the [official model entry](https://ollama.com/library/qwen3:32b).
+I used **Qwen3 32B** (`qwen3:32b`, Q4_K_M) through Ollama for selected offline evidence review, extraction and summaries. Weights and runtime are not included. See the [official model entry](https://ollama.com/library/qwen3:32b).
 
 ## Client configuration
 
-The Rust client uses fixed loopback HTTP and disables proxies and redirects. These settings describe the included client, not general Ollama defaults.
+I used a Rust client with fixed loopback HTTP, proxies disabled and redirects disabled. These settings describe the included client, not general Ollama defaults.
 
 | Setting | Included client behavior |
 | --- | --- |
@@ -35,8 +35,8 @@ In another terminal, download the model only if needed:
 OLLAMA_HOST=127.0.0.1:11435 ollama pull qwen3:32b
 ```
 
-Then use the [Rust inference example](../tools/local-review/README.md). Stop the foreground server with Ctrl+C when finished. These setup/inference commands were not run while preparing this repository; server availability, memory capacity and upstream behavior are environment-dependent.
+Then use the [Rust inference example](../tools/local-review/README.md). Stop the foreground server with Ctrl+C when finished. I did not re-run these setup/inference commands while preparing this repository; server availability, memory capacity and upstream behavior are environment-dependent.
 
 Model answers are untrusted text requiring review. The client saves requests, partial responses and results locally. Failed or interrupted jobs are not automatically replayed. Inputs must be reviewed UTF-8 files within this repository; path filters are an accidental-inclusion guard, not comprehensive secret detection.
 
-Local extraction and review reduced the need to send bulk material to the hosted assistant; no measured quota saving or universal performance claim is made. Public configuration does not reconstruct every historical model task.
+I used local extraction and review to reduce the amount of bulk material sent to the hosted assistant. I did not measure a quota saving, and I am not attributing every historical model task to this configuration.

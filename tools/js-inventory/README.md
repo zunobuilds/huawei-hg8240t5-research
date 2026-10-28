@@ -1,5 +1,7 @@
 # Static JavaScript inventory
 
+I used this tool to inspect saved JavaScript without executing device responses.
+
 Requires Node.js 22.x (22.18+) or 24.11+ and npm. Run from the repository root:
 
 ```bash

@@ -1,6 +1,6 @@
 # Native-resolution photo mosaic
 
-Offline Python tools for overlapping photographs of one mostly planar surface. Original files remain unchanged. Feature matching and sparse global refinement establish geometry; tiled lossless TIFF/BigTIFF rendering retains the finest estimated source sampling without super-resolution or generated detail.
+I used these offline Python tools to combine overlapping photographs of mostly planar surfaces. Original files remain unchanged. Feature matching and sparse global refinement establish geometry; tiled lossless TIFF/BigTIFF rendering retains the finest estimated source sampling without super-resolution or generated detail.
 
 Tall components, changing viewpoints, reflections and missing coverage can prevent a uniformly sharp composite. Focus selection cannot recover detail absent from every source image or resolve incorrect geometry. Small residuals are not calibrated dimensional accuracy.
 
@@ -73,7 +73,7 @@ The `--roi` coordinates are numeric x/y/width/height on the union preview whose 
 
 `compose_regions.py SPEC_JSON` blends reviewed native regions using explicit polygons, optionally trims/rotates the composite and removes outside-subject background. The specification contains a base TIFF, native crop coordinates, region files/metadata, normalized region polygons, output directory and optional foreground polygons. `--preview-only` allows inspection before export. This advanced helper currently requires 8-bit RGB; other depths fail explicitly. It writes lossless RGB BigTIFF, RGBA PNG with transparent outside-subject pixels, a subject mask and JPEG preview. Images and dataset-specific specifications remain untracked.
 
-Regional composition preserves source white balance. A per-channel normalization trial produced visible casts and was rejected. Tests check RGB channel order, unchanged pixels outside selected patches, lossless TIFF/PNG agreement, trim/rotation and foreground alpha. No inpainting or generated detail is used. Uneven source sharpness and small residual perspective, seam or reflection errors can remain.
+Regional composition preserves source white balance. I rejected a per-channel normalization trial because it produced visible colour casts. Tests check RGB channel order, unchanged pixels outside selected patches, lossless TIFF/PNG agreement, trim/rotation and foreground alpha. No inpainting or generated detail is used. Uneven source sharpness and small residual perspective, seam or reflection errors can remain.
 
 ## Tests
 

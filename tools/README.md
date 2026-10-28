@@ -1,6 +1,6 @@
 # Offline tools
 
-Run commands from the repository root. Tools process saved files without device requests or execution of supplied JavaScript or model output. Reading the research requires no tool installation.
+I used these offline tools to review saved evidence and process photographs. The examples below run from the repository root. Tools process saved files without device requests or execution of supplied JavaScript or model output. Reading the research requires no tool installation.
 
 | Tool | Requirements | First useful result |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ For limits and tests, see the [inventory guide](js-inventory/README.md). For sav
 
 ## Validation and generated files
 
-The offline examples and tests were checked on Linux with Node.js 22.23.1 and Rust/Cargo 1.99.0. Other supported Node.js versions were not exercised here. Rust versions below 1.99 are not claimed as supported.
+I used automated checks for the offline examples and tests on Linux with Node.js 22.23.1 and Rust/Cargo 1.99.0. Other supported Node.js versions were not exercised here. Rust versions below 1.99 are not claimed as supported.
 
 Reviewed inputs are required because outputs can disclose names, prompts or evidence. Generated files, caches and results are excluded from Git. Sharing outputs requires a separate content review. Installed JavaScript dependencies reside in `tools/js-inventory/node_modules`; removing that directory leaves source files intact. Rust task records reside under `tools/local-review/state`; partial answers require review before record removal.
 

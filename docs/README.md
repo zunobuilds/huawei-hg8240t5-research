@@ -1,6 +1,6 @@
 # Documentation
 
-Start with [device and firmware](device.md), then [hardware and photos](hardware.md) or the [finding summary](findings/ONR-WEB-001.md).
+I grouped the research into the pages below. Start with [device and firmware](device.md), then [hardware and photos](hardware.md) or the [finding summary](findings/ONR-WEB-001.md).
 
 | Reader goal | Guide |
 | --- | --- |

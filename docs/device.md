@@ -11,9 +11,9 @@
 
 The enclosure/WebUI product name, reported hardware version and PCB marking describe different aspects of the unit. These identifiers are not interchangeable indicators of firmware compatibility.
 
-The research goal was to establish access to the existing Linux shell and later assess Ethernet switch reuse. Neither goal is reported as achieved. No shell, firmware dump, arbitrary execution, verified UART pinout or completed switch-reuse conversion is established.
+I started this research to reach the existing Linux shell and later assess Ethernet switch reuse. I have not achieved either goal. No shell, firmware dump, arbitrary execution, verified UART pinout or completed switch-reuse conversion is established.
 
-Evidence comes from saved browser observations, bounded comparisons and photographs. A shared software notice or related device's boot log does not establish this unit's running kernel, bootloader configuration or recovery method. The [finding](findings/ONR-WEB-001.md) applies only to the tested build and request context.
+I based the findings on saved browser observations, bounded comparisons and photographs. A shared software notice or related device's boot log does not establish this unit's running kernel, bootloader configuration or recovery method. The [finding](findings/ONR-WEB-001.md) applies only to the tested build and request context.
 
 ---
 

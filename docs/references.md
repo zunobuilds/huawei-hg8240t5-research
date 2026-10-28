@@ -1,6 +1,6 @@
 # References
 
-These links identify upstream projects and supporting documents. Vendor documents and related-device research are linked, not redistributed. Link reachability at preparation time is recorded in the private handoff rather than assumed.
+I collected these upstream projects and supporting documents as references for the research. I linked vendor documents and related-device research rather than redistributing copies. Link reachability at preparation time is recorded in the private handoff rather than assumed.
 
 ## Hardware
 
