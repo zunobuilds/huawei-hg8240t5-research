@@ -22,6 +22,7 @@ This supersedes historical ten-minute instructions. Do not invent usage readings
 
 - Preserve the centered main README title `Huawei HG8240T5` and the small green AI-assisted label beneath it. The label is a local SVG asset, with accessible alternative text.
 - Use neutral, factual wording, working relative links and commands supported by the actual implementation. Preserve the next-page navigation. Do not invent features, maintainers, contacts, policies, compatibility or passing checks.
+- Keep the main README focused on concrete findings and vulnerabilities in bullet points. Distinguish confirmed exposure, unresolved observations and unachieved access goals; keep private diagnostic pause/checkpoint notices out of its summary. This presentation rule does not resume diagnostics.
 - Preserve the explanation that the tested firmware is customized for Singtel, an ISP in Singapore. Findings apply to the tested build, not every device of this model.
 - Preserve the MIT License, ownership notices and AI/safety disclosures. The repository license does not apply to device hardware, original firmware or third-party material.
 - Public model documentation and configuration list only Qwen3 32B (`qwen3:32b`, Q4_K_M). Do not attribute every historical task to that model.

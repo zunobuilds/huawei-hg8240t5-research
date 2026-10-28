@@ -10,9 +10,13 @@ This project studies a Huawei HG8240T5 running firmware customized for [Singtel]
 
 ![Huawei HG8240T5 enclosure viewed from a front corner, showing the vented top and Singtel branding](images/device/hg8240t5-exterior.jpg)
 
-## Research status
+## Findings and vulnerabilities
 
-Device diagnostics are paused. A LAN information disclosure was independently reproduced. Shell access, firmware extraction and a UART pinout have not been established. Exact reproduction details and raw evidence remain private.
+- **Confirmed vulnerability — [ONR-WEB-001](docs/findings/ONR-WEB-001.md):** four WAN/ONT resources exposed configuration and device-state data without authentication on the tested management LAN.
+- **Exposed information:** three WAN profiles, MAC addresses, VLAN/service configuration, connection mode/status flags and optical network terminal (ONT) state. Internet-side exposure was not established.
+- **Unresolved observation:** a password-labelled field contained the same opaque 64-character hexadecimal value across profiles. Its meaning and usability are unknown; password recovery was not demonstrated.
+- **Hardware findings:** PCB and component identification are documented in the [hardware guide](docs/hardware.md), with photographs and evidence limits.
+- **Access results:** no shell access, arbitrary command execution, firmware dump or verified UART pinout has been established.
 
 ## Start here
 
