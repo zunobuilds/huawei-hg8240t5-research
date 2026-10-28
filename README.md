@@ -4,7 +4,7 @@ Independent research into a retired optical network router (ONR), for readers in
 
 This project studies a Huawei HG8240T5 running firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the tested SINGTEL2 build; other units and firmware may differ.
 
-![PCB backside connector region, showing solder joints and connector housings](images/pcb/pcb-connector-side.jpg)
+![Huawei HG8240T5 enclosure viewed from a front corner, showing the vented top and Singtel branding](images/device/hg8240t5-exterior.jpg)
 
 ## Research status
 
