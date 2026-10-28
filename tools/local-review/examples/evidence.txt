@@ -1,0 +1,1 @@
+Synthetic evidence: an anonymous control returned 403. A separate sample returned 200 with an empty array. No device was contacted. These status codes alone do not establish sensitive data exposure.

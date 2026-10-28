@@ -1,0 +1,16 @@
+{
+  "name": "offline-js-inventory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static field-shape inventory of saved JavaScript; no script execution",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  },
+  "scripts": {
+    "test": "node --test inventory.test.cjs"
+  },
+  "dependencies": {
+    "@babel/parser": "8.0.4"
+  }
+}

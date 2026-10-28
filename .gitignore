@@ -1,0 +1,21 @@
+# Private evidence and local configuration
+.private/
+captures/
+archives/
+.env
+.env.*
+*.har
+*.pcap
+*.pcapng
+*.tar
+*.tar.gz
+*.zip
+# Dependencies, model data and generated results
+node_modules/
+target/
+.cargo/
+models/
+tools/local-review/state/
+__pycache__/
+*.pyc
+.DS_Store
