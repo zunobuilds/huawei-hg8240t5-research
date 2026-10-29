@@ -38,6 +38,7 @@ This replaces the earlier manual usage questions and all previous checkpoint int
 - Use deterministic processing for evidence images. Do not invent or reconstruct detail with generative editing. State blur, glare, alignment and measurement limitations honestly.
 - Treat OCR, text extraction and component interpretation as separate tasks; combining or editing photos does not authorize them. Save requested extracted text in a separate local text file and review before sharing.
 - The component-side composite is included on the hardware page as `images/pcb/pcb-component-side.jpg`; lossless masters and original photographs remain local.
+- The flat-side composite uses `images/pcb/pcb-flat-side.jpg` for the preview and `images/pcb/pcb-flat-side-full.jpg` for the native 14,216 × 8,923 export. Preserve its flattened sticker redaction and the hardware page's full-resolution link. Component notes distinguish legible markings from probable part identifications and untraced circuit roles.
 - The main README uses the edited exterior image at `images/device/hg8240t5-exterior.jpg`. Keep the existing PCB detail images available on the hardware page.
 
 ## Offline tools and checks

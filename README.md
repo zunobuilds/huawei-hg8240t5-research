@@ -4,19 +4,19 @@
   <img src="images/ai-assisted.svg" alt="AI-assisted" width="100" height="22" />
 </p>
 
-I am investigating a retired Huawei optical network router (ONR), including its hardware, management interface and possible reuse.
+Hardware, firmware and management-interface research on a retired **Huawei HG8240T5 optical network router (ONR)**, with possible reuse as a longer-term goal.
 
-This research covers a Huawei HG8240T5 running firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the tested SINGTEL2 build; other units and firmware may differ.
+The tested device runs firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the **SINGTEL2 build tested here**; other units and firmware may differ.
 
 ![Huawei HG8240T5 enclosure viewed from a front corner, showing the vented top and Singtel branding](images/device/hg8240t5-exterior.jpg)
 
 ## Findings and vulnerabilities
 
-- **Confirmed vulnerability — [ONR-WEB-001](docs/findings/ONR-WEB-001.md):** I reproduced unauthenticated exposure from four WAN/ONT resources containing configuration and device-state data on the tested management LAN.
-- **Exposed information:** three WAN profiles, MAC addresses, VLAN/service configuration, connection mode/status flags and optical network terminal (ONT) state. Internet-side exposure was not established.
-- **Unresolved observation:** a password-labelled field contained the same opaque 64-character hexadecimal value across profiles. I have not established its meaning or usability, or recovered a password from it.
-- **Hardware findings:** I documented the PCB and component identification in the [hardware guide](docs/hardware.md), with photographs and evidence limits.
-- **Access results:** I have not obtained shell access, arbitrary command execution, a firmware dump or a verified UART pinout.
+- **[ONR-WEB-001 — unauthenticated information exposure](docs/findings/ONR-WEB-001.md):** four WAN/ONT resources returned configuration and device-state data without login on the tested management LAN. Internet-side exposure was not established.
+- **Data exposed:** three WAN profiles, MAC addresses, VLAN/service settings, connection flags and optical network terminal (ONT) state.
+- **Unresolved:** a password-labelled field held the same opaque 64-character hexadecimal value across profiles. Its meaning and usability remain unverified; no password was recovered.
+- **Hardware:** the [hardware guide](docs/hardware.md) covers PCB photographs, component identification and evidence limits.
+- **Access limits:** no shell, arbitrary command execution, firmware dump or verified UART pinout has been obtained.
 
 ## Start here
 
@@ -25,6 +25,22 @@ This research covers a Huawei HG8240T5 running firmware customized for [Singtel]
 - [Finding summary and limits](docs/findings/ONR-WEB-001.md)
 - [Offline tools: first example](tools/README.md#first-offline-example)
 - [All documentation](docs/README.md)
+
+## Tools used
+
+### Research and analysis
+
+| Research and browsing | Local review | Code and data |
+| --- | --- | --- |
+| **Codex** — code, analysis and writing<br>**Playwright** — browser collection and comparisons | **Ollama + Qwen3 32B** — local evidence review<br>**REA** — read-only analysis | **Python, Rust and Node.js** — processing and offline tools<br>**Babel** — JavaScript syntax-tree parsing |
+
+### Photographs and image processing
+
+| Alignment | Focus and export | Editing and metadata |
+| --- | --- | --- |
+| **OpenCV + SciPy** — image registration and refinement | **focus-stack** — selected focus stacks<br>**tifffile** — lossless TIFF/BigTIFF output | **GIMP** — photo edits and redaction<br>**ExifTool** — metadata inspection and removal |
+
+See [tool roles and limitations](docs/tooling.md), [local model setup](docs/local-models.md) and the [photo mosaic workflow](tools/photo-mosaic/README.md). Tool use does not establish the correctness of a finding; conclusions require supporting evidence.
 
 ## Safety and ownership
 

@@ -10,6 +10,8 @@ These upstream projects, vendor documents and related-device studies informed th
 - [Mentech H4001CG datasheet, manufacturer-authored, DigiKey mirror](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/438/H4001CG.pdf): Ethernet magnetics identification.
 - [Microchip Le9642](https://www.microchip.com/en-us/product/le9642): telephone interface.
 - [ST LCP1521S datasheet](https://www.st.com/resource/en/datasheet/lcp1521s.pdf): CP152S marking and line protection.
+- [Diodes Incorporated ZX5T955G datasheet](https://www.diodes.com/datasheet/download/ZX5T955G.pdf): X5T955 marking, YWW date code and SOT223 PNP transistor specifications.
+- [MCC product catalog](https://www.mccsemi.com/pdf/MCCProductCatalog.pdf): ES1D-L family SMA rectifier specifications; exact ordering suffix on the photographed device remains unverified.
 - [Firsthand HG8240H5 investigation](https://github.com/PururinCollective/Hacking_Huawei_HG8240H5_ONT): related-device SD5117P evidence; a different board, not this unit's UART pinout or firmware.
 
 ## Software and documentation
