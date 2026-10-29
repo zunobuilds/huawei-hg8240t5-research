@@ -31,8 +31,8 @@ The tested device runs firmware customized for [Singtel](https://www.singtel.com
 ### Research and analysis
 
 - **Codex:** code, analysis and writing.
-- **Playwright:** browser collection and comparisons.
-- **Ollama + Qwen3 32B:** local evidence review.
+- **Playwright:** browser usage for codex.
+- **Ollama + Qwen3 32B:** local AI for actions restricted by [OpenAI Daybreak](https://openai.com/daybreak/) review.
 - **REA:** read-only analysis.
 - **Python, Rust and Node.js:** processing and offline tools.
 - **Babel:** JavaScript syntax-tree parsing.
