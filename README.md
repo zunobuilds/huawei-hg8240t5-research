@@ -10,7 +10,7 @@ Hardware, firmware and management-interface research on a retired **Huawei HG824
 <p align="center">
   Project inspired by <a href="https://en.wikipedia.org/wiki/Boredom">boredom</a>.
 </p>
-
+<br><br>
 
 The tested device runs firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the **SINGTEL2 build tested here**; other units and firmware may differ.
 
