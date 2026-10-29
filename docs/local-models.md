@@ -1,6 +1,6 @@
 # Local model
 
-I used **Qwen3 32B** (`qwen3:32b`, Q4_K_M) through Ollama for selected offline evidence review, extraction and summaries. Weights and runtime are not included. See the [official model entry](https://ollama.com/library/qwen3:32b).
+I used **Qwen3 32B** (`qwen3:32b`, Q4_K_M) through Ollama for selected offline evidence review, extraction and summaries. Weights and runtime are not included. See the [Ollama Page](https://ollama.com/library/qwen3:32b).
 
 ## Client configuration
 
