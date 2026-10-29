@@ -33,9 +33,9 @@ The tested device runs firmware customized for [Singtel](https://www.singtel.com
 - **Codex:** code, analysis and writing.
 - **Playwright:** browser usage for codex.
 - **Ollama + Qwen3 32B:** local AI for actions restricted by [OpenAI Daybreak](https://openai.com/daybreak/).
-- **[REA by Morlulo](https://github.com/morluto/rea)**
-- **Python, Rust and Node.js:** processing and offline tools.
-- **Babel:** JavaScript syntax-tree parsing.
+- **[REA by Morlulo](https://github.com/morluto/rea)** for its read only tools.
+- **Python, Rust and Node.js:** processing data and scripts.
+- **[Babel](https://babeljs.io/):** JavaScript syntax-tree parsing.
 
 ### Photographs and image processing
 
