@@ -1,6 +1,6 @@
 # Methodology and evidence limits
 
-I investigated a retired device on an isolated management LAN. Playwright handled WebUI interactions; device actions were supervised, sequential and logged. This repository contains offline tools only; preparing these documents did not resume diagnostics.
+I investigated a retired device on an isolated management LAN. [Playwright](https://playwright.dev/) handled WebUI interactions; device actions were supervised, sequential and logged. This repository contains offline tools only; preparing these documents did not resume diagnostics.
 
 ## Evidence workflow
 
