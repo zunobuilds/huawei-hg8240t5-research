@@ -9,7 +9,7 @@ I investigated a retired device on an isolated management LAN. I used Playwright
 3. I parsed saved JavaScript as data without executing device responses.
 4. I compared authenticated and anonymous behavior using controls and separate browser contexts.
 5. I checked consequential model claims against source, syntax trees, photographs or request evidence.
-6. I preserved failed attempts and corrections in private evidence and included sanitized conclusions and limits here.
+6. I recorded failed attempts and corrections, and report verified conclusions and limits here.
 
 I collected 24 distinct menu snapshots, 222 response records, 89 verified unique blobs and 97 text files. Three transient response bodies were unavailable. These figures describe a WebUI corpus, not firmware extraction, filesystem access or distinct vulnerability counts.
 

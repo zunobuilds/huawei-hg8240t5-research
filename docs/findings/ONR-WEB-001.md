@@ -18,7 +18,7 @@ Requests were tested in a particular same-origin context on an isolated LAN. I d
 
 An added generic query parameter initially caused misleading 403 responses. Exact observed URLs and request context mattered. HTTP success alone was insufficient: populated data, authentication state and protected controls were checked separately.
 
-I have kept exact endpoints, request sequences, raw responses and opaque values private. This public summary is not a runnable reproduction or an independently auditable raw evidence bundle. No vendor contact, external disclosure or matching patched build is claimed.
+I report the confirmed behavior and its limits here. Exact reproduction data is not included. A matching patched build has not been verified.
 
 ---
 

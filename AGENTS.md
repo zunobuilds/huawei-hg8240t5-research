@@ -8,15 +8,16 @@ Live device diagnostics remain paused until explicitly resumed by the user. Repo
 
 ## Five-hour usage check-ins
 
-Use the latest user-reported percentage of the five-hour usage allowance remaining.
+At each usage checkpoint, run `codex-status` using the shell. Use its five-hour remaining percentage to determine the check-in interval. Never guess.
 
-- Below 30%: check in every 15 minutes of sustained work.
-- 30% or above: check in every 30 minutes of sustained work.
-- Shorter runs require no timed check-in; the user may provide usage updates between prompts.
-- At each scheduled check-in, save progress, summarize work and findings, ask for the remaining allowance, and wait for the user’s reply before continuing.
-- Continue ordinary progress updates independently.
+- Below 18%: check in every 5 minutes of sustained work.
+- 18% or above: check in every 10 minutes of sustained work.
+- Save progress and summarize work and findings at each checkpoint. If `codex-status` returns a valid five-hour remaining percentage, continue without asking the user or waiting for a reply.
+- If the command fails or does not provide a usable five-hour remaining percentage, ask the user for the current usage and wait for the reply before continuing. Do not infer usage or a reset from elapsed time, stale reports or another allowance.
+- Below 10% remaining, slow down: stop starting new batches, save state and wrap up. Below 5%, stop new work and leave a complete checkpoint. Never guess usage; use `codex-status` or the user fallback.
+- Shorter runs require no timed check-in. Continue ordinary progress updates independently.
 
-This supersedes historical ten-minute instructions. Do not invent usage readings, infer a reset or treat an old percentage in a report as a fresh reading. These are manual check-ins; no automated quota monitor is required.
+This replaces the earlier manual usage questions and all previous checkpoint intervals. No persistent scheduler or background monitoring service is required; run the command at checkpoints during active work.
 
 ## Documentation and ownership
 

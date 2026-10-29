@@ -1,6 +1,6 @@
 # Hardware and photographs
 
-I compared photographs with manufacturer documentation to identify the hardware. The images below show PCB backside details and a component-side composite; the complete identification evidence remains private.
+I compared photographs with manufacturer documentation to identify the hardware. The photographs below show PCB backside details and a component-side composite.
 
 | Component | Identification from research | Limit |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ Single-frame detail of the connector region. I kept the original framing, remove
 
 A second single-frame view of backside traces and footprints. Focus and glare limit fine-lettering interpretation. No component function or signal assignment is inferred from appearance alone.
 
-Both images retain original encoded pixel data, without AI-generated reconstruction. Originals remain private and unchanged. See [image provenance](../images/README.md).
+Both images retain original encoded pixel data, without AI-generated reconstruction. Original files are unchanged. See [image provenance](../images/README.md).
 
 ## Component side — bottom-facing inside the device
 
@@ -37,7 +37,7 @@ Originals remain unchanged. Source softness, lighting differences and small loca
 
 The previously observed five-pad footprint is only a debug-interface candidate: function, pinout and voltage remain unverified. Unpopulated footprints and USB/WLAN silkscreen are not proof of functioning interfaces. No wiring instructions are provided.
 
-I kept the original full-board backside mosaic private because it contains an identifying sticker. The component-side composite above is included separately. Earlier deleted loose photographs were not restored from backups; no complete two-sided public gallery is claimed.
+The full-board backside mosaic contains an identifying sticker. The component-side composite is shown above. Deleted loose photographs were not restored from backups.
 
 ---
 

@@ -11,7 +11,7 @@ I grouped the research into the pages below. Start with [device and firmware](de
 | Check photographs and attribution | [Image provenance](../images/README.md), [skills and provenance](skills.md) |
 | Follow the work and its sources | [Research timeline](timeline.md), [references](references.md) |
 
-The offline tools use synthetic examples. Live-device collectors, exact vulnerable endpoints and private evidence are excluded. See [safety](../DISCLAIMER.md) and [ownership](../NOTICE.md). Reading the research requires no installation.
+The offline tools use synthetic examples. Live-device collectors and exact reproduction data are excluded. See [safety](../DISCLAIMER.md) and [ownership](../NOTICE.md). Reading the research requires no installation.
 
 ---
 
