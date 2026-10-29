@@ -6,7 +6,7 @@
 
 I am investigating a retired Huawei optical network router (ONR), including its hardware, management interface and possible reuse.
 
-I used a Huawei HG8240T5 running firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the tested SINGTEL2 build; other units and firmware may differ.
+This research covers a Huawei HG8240T5 running firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the tested SINGTEL2 build; other units and firmware may differ.
 
 ![Huawei HG8240T5 enclosure viewed from a front corner, showing the vented top and Singtel branding](images/device/hg8240t5-exterior.jpg)
 
@@ -28,6 +28,6 @@ I used a Huawei HG8240T5 running firmware customized for [Singtel](https://www.s
 
 ## Safety and ownership
 
-I used AI assistance for code, analysis and documentation, so this research may contain errors. Experimental hardware work can cause injury, damage, data loss or service disruption. Equipment testing requires authorization; the [full disclaimer](DISCLAIMER.md) describes the limitations.
+AI assisted with code, analysis and documentation; errors may remain. Experimental hardware work can cause injury, damage, data loss or service disruption. Equipment testing requires authorization; the [full disclaimer](DISCLAIMER.md) describes the limitations.
 
 Original contributions use the [MIT License](LICENSE), with **ABSOLUTELY NO WARRANTY**, to the extent permitted by applicable law. Device hardware and original firmware are third-party works outside the repository license. See [ownership and license scope](NOTICE.md).

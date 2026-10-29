@@ -1,6 +1,6 @@
 # Local file review
 
-I adapted this Linux Rust client from the private file-review workflow. It saves deduplicated tasks, streams answers and never executes model output. Requires Rust/Cargo 1.99 or later. Run from the repository root; first compilation may download dependencies and runs Cargo dependency build scripts.
+This Linux Rust client is adapted from the local file-review workflow. It saves deduplicated tasks, streams answers and never executes model output. Requires Rust/Cargo 1.99 or later. Run from the repository root; first compilation may download dependencies and runs Cargo dependency build scripts.
 
 ## Offline example
 

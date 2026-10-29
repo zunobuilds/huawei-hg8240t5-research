@@ -1,6 +1,6 @@
 # References
 
-I collected these upstream projects and supporting documents as references for the research. I linked vendor documents and related-device research rather than redistributing copies.
+These upstream projects, vendor documents and related-device studies informed the research. References link to their sources rather than redistributing copies.
 
 ## Hardware
 

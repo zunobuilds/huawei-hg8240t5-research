@@ -1,8 +1,8 @@
 # Tools and workflow
 
-I used the following tools for collection, analysis, documentation and image processing. AI-generated conclusions required checks against the underlying evidence.
+The tools below supported collection, analysis, documentation and image processing. AI-generated conclusions required checks against the underlying evidence.
 
-| Tool | How I used it | Limit |
+| Tool | Role | Limit |
 | --- | --- | --- |
 | Codex | Supervised orchestration, code review, analysis and documentation | Can make mistakes; claims require evidence |
 | Playwright | Controlled WebUI interaction and independent browser comparisons | No live collectors are included here |
@@ -13,7 +13,7 @@ I used the following tools for collection, analysis, documentation and image pro
 | Photo mosaic | Native-source alignment, local focus selection and tiled lossless rendering | Planar geometry, source blur and tall-component parallax limit results |
 | Static JavaScript inventory | Syntax-tree extraction of declarations and field shapes | Does not execute scripts or establish backend behavior |
 
-I adapted the Rust client for this repository's paths and Qwen3-only configuration. The JavaScript utility parses local files statically and suppresses literal values by default. Neither utility contacts the device.
+The adapted Rust client uses this repository's paths and Qwen3-only configuration. The JavaScript utility parses local files statically and suppresses literal values by default. Neither utility contacts the device.
 
 See [offline tool instructions](../tools/README.md) and [local model setup](local-models.md). Keep generated outputs private: an inventory's variable names and shape metadata may still disclose details. The tools do not replace a secret scanner or an authorization boundary.
 

@@ -1,6 +1,6 @@
 # Image provenance
 
-I included four images: an exterior view, two PCB backside details and a component-side composite. I kept the originals private and unchanged. EXIF/XMP/IPTC and other removable metadata were stripped from the included copies.
+This repository includes four images: an exterior view, two PCB backside details and a component-side composite. Originals remain private and unchanged. EXIF/XMP/IPTC and other removable metadata were stripped from the included copies.
 
 | File | Contents | Limitation |
 | --- | --- | --- |

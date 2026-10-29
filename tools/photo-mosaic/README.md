@@ -1,6 +1,6 @@
 # Native-resolution photo mosaic
 
-I used these offline Python tools to combine overlapping photographs of mostly planar surfaces. Original files remain unchanged. Feature matching and sparse global refinement establish geometry; tiled lossless TIFF/BigTIFF rendering retains the finest estimated source sampling without super-resolution or generated detail.
+These offline Python tools combine overlapping photographs of mostly planar surfaces. Original files remain unchanged. Feature matching and sparse global refinement establish geometry; tiled lossless TIFF/BigTIFF rendering retains the finest estimated source sampling without super-resolution or generated detail.
 
 Tall components, changing viewpoints, reflections and missing coverage can prevent a uniformly sharp composite. Focus selection cannot recover detail absent from every source image or resolve incorrect geometry. Small residuals are not calibrated dimensional accuracy.
 

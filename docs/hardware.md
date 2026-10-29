@@ -29,7 +29,7 @@ Both images retain original encoded pixel data, without AI-generated reconstruct
 
 ![PCB component side with connectors along the bottom edge](../images/pcb/pcb-component-side.jpg)
 
-I used a 1,297-photo dataset to prepare this composite. The local lossless master is 13,311 × 8,407 pixels; this documentation image is a reduced JPEG. I used PCB-surface registration, native focus selection, a reviewed capacitor-region focus stack and coherent source views for raised components. Outside-scene background was removed without inpainting or generated detail.
+This composite combines a 1,297-photo dataset. The local lossless master is 13,311 × 8,407 pixels; this documentation image is a reduced JPEG. Processing combined PCB-surface registration, native focus selection, a reviewed capacitor-region focus stack and coherent source views for raised components. Outside-scene background was removed without inpainting or generated detail.
 
 Originals remain unchanged. Source softness, lighting differences and small local seam or perspective errors can remain. The composite is not a calibrated measurement. See [image provenance](../images/README.md).
 

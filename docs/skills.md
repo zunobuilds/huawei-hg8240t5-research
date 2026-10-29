@@ -1,7 +1,7 @@
 # Skills and provenance
 
-I recorded the tools used during the research, but I do not have a verified, publishable inventory of named Codex skill packages and corresponding upstream sources. I have not credited a specific skill package without that evidence.
+The research records tool use, but no verified inventory establishes which named Codex skill packages were invoked. Specific skill packages are therefore not credited.
 
 Codex, Playwright, Ollama and REA are documented as tools in [tooling](tooling.md); tool use does not by itself prove invocation of a particular skill. Local research instructions and orchestration policies are excluded. Shared repository guidance is tracked in [AGENTS.md](../AGENTS.md).
 
-I used a GitHub documentation guide to organize these pages; the reusable guide remains outside this repository. Public platform references are listed in [references](references.md).
+A GitHub documentation guide informed the organization of these pages; the reusable guide remains outside this repository. Public platform references are listed in [references](references.md).

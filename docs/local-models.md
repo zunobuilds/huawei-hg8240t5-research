@@ -1,10 +1,10 @@
 # Local model
 
-I used **Qwen3 32B** (`qwen3:32b`, Q4_K_M) through Ollama for selected offline evidence review, extraction and summaries. Weights and runtime are not included. See the [Ollama Page](https://ollama.com/library/qwen3:32b).
+**Qwen3 32B** (`qwen3:32b`, Q4_K_M) ran through Ollama for selected offline evidence review, extraction and summaries. Weights and runtime are not included. See the [Ollama Page](https://ollama.com/library/qwen3:32b).
 
 ## Client configuration
 
-I used a Rust client with fixed loopback HTTP, proxies disabled and redirects disabled. These settings describe the included client, not general Ollama defaults.
+The Rust client uses fixed loopback HTTP with proxies and redirects disabled. These settings describe the included client, not general Ollama defaults.
 
 | Setting | Included client behavior |
 | --- | --- |
@@ -39,4 +39,4 @@ Then use the [Rust inference example](../tools/local-review/README.md). Stop the
 
 Model answers are untrusted text requiring review. The client saves requests, partial responses and results locally. Failed or interrupted jobs are not automatically replayed. Inputs must be reviewed UTF-8 files within this repository; path filters are an accidental-inclusion guard, not comprehensive secret detection.
 
-I used local extraction and review to reduce the amount of bulk material sent to the hosted assistant. I did not measure a quota saving, and I am not attributing every historical model task to this configuration.
+Local extraction and review reduced the bulk material sent to the hosted assistant. I did not measure a quota saving, and I am not attributing every historical model task to this configuration.

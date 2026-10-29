@@ -1,6 +1,6 @@
 # Research timeline
 
-I recorded the main research stages below. These dates describe the work, not software releases.
+The timeline below records the main research stages. These dates describe the work, not software releases.
 
 | Date | Work and outcome |
 | --- | --- |

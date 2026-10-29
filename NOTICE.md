@@ -10,4 +10,4 @@ Huawei and Singtel names identify the subject of independent research; no affili
 
 The offline tools adapt code created in the private research workspace. The tools depend on separately licensed third-party software; no dependency source, executable, model weight or vendor firmware is bundled. Cargo.lock and package-lock.json record dependency versions. Preserve upstream notices when redistributing dependencies.
 
-I used Codex for implementation and writing, Playwright for controlled browser collection, Ollama and Qwen3 for local review, and REA for constrained read-only analysis. See [tool roles](docs/tooling.md), [local model](docs/local-models.md) and [references](docs/references.md).
+Codex assisted with implementation and writing; Playwright supported controlled browser collection, Ollama and Qwen3 provided local review, and REA supported constrained read-only analysis. See [tool roles](docs/tooling.md), [local model](docs/local-models.md) and [references](docs/references.md).
