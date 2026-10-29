@@ -30,15 +30,20 @@ The tested device runs firmware customized for [Singtel](https://www.singtel.com
 
 ### Research and analysis
 
-| Research and browsing | Local review | Code and data |
-| --- | --- | --- |
-| **Codex** — code, analysis and writing<br>**Playwright** — browser collection and comparisons | **Ollama + Qwen3 32B** — local evidence review<br>**REA** — read-only analysis | **Python, Rust and Node.js** — processing and offline tools<br>**Babel** — JavaScript syntax-tree parsing |
+- **Codex:** code, analysis and writing.
+- **Playwright:** browser collection and comparisons.
+- **Ollama + Qwen3 32B:** local evidence review.
+- **REA:** read-only analysis.
+- **Python, Rust and Node.js:** processing and offline tools.
+- **Babel:** JavaScript syntax-tree parsing.
 
 ### Photographs and image processing
 
-| Alignment | Focus and export | Editing and metadata |
-| --- | --- | --- |
-| **OpenCV + SciPy** — image registration and refinement | **focus-stack** — selected focus stacks<br>**tifffile** — lossless TIFF/BigTIFF output | **GIMP** — photo edits and redaction<br>**ExifTool** — metadata inspection and removal |
+- **OpenCV + SciPy:** image registration and alignment refinement.
+- **focus-stack:** combining selected frames for sharper focus.
+- **tifffile:** lossless TIFF/BigTIFF exports.
+- **GIMP:** photo edits and redaction.
+- **ExifTool:** metadata inspection and removal.
 
 See [tool roles and limitations](docs/tooling.md), [local model setup](docs/local-models.md) and the [photo mosaic workflow](tools/photo-mosaic/README.md). Tool use does not establish the correctness of a finding; conclusions require supporting evidence.
 
