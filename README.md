@@ -1,3 +1,4 @@
+
 <h1 align="center">Huawei HG8240T5</h1>
 
 <p align="center">
@@ -5,9 +6,11 @@
 </p>
 
 Hardware, firmware and management-interface research on a retired **Huawei HG8240T5 optical network router (ONR)**, with possible reuse as a longer-term goal.
+
 <p align="center">
-Project insipired by [boredom](https://en.wikipedia.org/wiki/Boredom)
+  Project inspired by <a href="https://en.wikipedia.org/wiki/Boredom">boredom</a>.
 </p>
+
 The tested device runs firmware customized for [Singtel](https://www.singtel.com/), an internet service provider (ISP) in Singapore. Findings apply to the **SINGTEL2 build tested here**; other units and firmware may differ.
 
 ![Huawei HG8240T5 enclosure viewed from a front corner, showing the vented top and Singtel branding](images/device/hg8240t5-exterior.jpg)
